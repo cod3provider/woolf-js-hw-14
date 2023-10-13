@@ -21,7 +21,7 @@ function createMarkup(arr) {
       <img src="${url}" alt="${alt}" width="350" /> 
     </li>
   `).join('');
-  console.log(imageItems)
+
   list.insertAdjacentHTML("beforeend", imageItems);
 }
 
